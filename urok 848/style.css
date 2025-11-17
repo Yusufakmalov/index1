@@ -1,0 +1,88 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+section {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.title {
+   text-align: center;
+   margin-top: 50px;
+}
+.skils {
+   width: 100%;
+   background-color: #EAF2F5;
+   display: flex;
+   border-radius: 30px;
+   margin-top: 70px;
+}
+.skils-img {
+   background-image: url(./image.png);
+   width: 50%;
+   height: 400px;
+   background-repeat: no-repeat;
+   background-position: center bottom;
+   margin-bottom: 0;
+}
+.skils-img img {
+   max-width: 100%;
+}
+
+.skils-info {
+   padding-top: 100px;
+}
+.skils-info p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+span {
+   display: inline-flex;
+   padding: 10px 20px;
+   font-size: 18px;
+   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+   background-color: aqua;
+   margin: 5px;
+   border-radius: 100px;
+   color: white;
+}
+.pyhton {
+   background-color: #5096ff;
+}
+.seti {
+   background-color: #ffb359;
+}
+.db{
+    background-color: #FF6F50;
+}
+.django{
+    background-color: #4BD071;
+}
+.test{
+    background-color: #50C0FF;
+}
+.git{
+    background-color: #AF93FF;
+}
+.docer{
+    background-color: #4B77B9;
+}
+.advantages{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+.advantages-item{
+    width: 200px;
+    height: 200;
+    background-color: #4BD071;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 12px;
+}

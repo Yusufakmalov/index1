@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+}
+.box-left{
+    width: 40%;
+    padding-left: 150px;
+    padding-top: 180px;
+    padding-right: 50px;
+}
+.box-left h1{
+    font-size: 60px;
+}
+.box-left p{
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.box-left button{
+    padding: 10px 20px;
+}
+.box-right{
+    width: 42px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 50px;
+}
+.card{
+    width: 117px;
+    height: 137px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    margin-right: 10px;
+}
+.red{
+    color: cadetblue;
+}
+.blue{
+    color: rgb(129, 95, 160);
+}
+.green{
+    color: rgb(95, 160, 119);
+}
+.card-1{
+    
+}

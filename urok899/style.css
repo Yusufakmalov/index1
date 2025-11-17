@@ -1,0 +1,133 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      color: #2b2b2b;
+      background: #fff;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 80px 10%;
+      background: #fff;
+    }
+
+    .hero-text {
+      max-width: 40%;
+    }
+
+    .hero-text h1 {
+      font-size: 48px;
+      line-height: 1.2;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      background: #8b5e3c;
+      color: #fff;
+      padding: 12px 32px;
+      border: none;
+      border-radius: 25px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .hero-images {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .hero-images img {
+      border-radius: 50%;
+      width: 220px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+
+    /* Stats section */
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #f5e4d1;
+      padding: 40px 0;
+      border-radius: 40px;
+      width: 80%;
+      margin: 40px auto;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #2b2b2b;
+    }
+
+    .stat p {
+      color: #666;
+      font-size: 14px;
+    }
+
+    /* Gallery section */
+    .gallery {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background: #1d1d1d;
+      padding: 60px 10%;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .gallery-item {
+      width: 200px;
+      text-align: center;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .gallery-item p {
+      color: #fff;
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-text {
+        max-width: 100%;
+      }
+
+      .hero-images {
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .stats {
+        flex-direction: column;
+        width: 90%;
+      }
+    }
+ 
